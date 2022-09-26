@@ -12,7 +12,7 @@ function Calcular(){
     nbb.innerHTML = `?????`
 
 
-    if(NumberText.value.length >= 9){
+    if(NumberText.value.length >= 8){
         NumberList.innerHTML += `Valor muito alto pra inserir no cartão`;
     }else{
         if(NumberText.value.length == 0){
