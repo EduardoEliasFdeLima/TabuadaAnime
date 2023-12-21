@@ -107,6 +107,7 @@ li{
 }
 
 img{
+    userselect: none;
     height: 100%;
     transition: .5s;
 }
